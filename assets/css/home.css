@@ -1,0 +1,33 @@
+/**** backgrounds ****/
+.bg-image-hero {
+    background: #6E5046 url('../img/background-image-primary.webp') no-repeat fixed center;
+    background-size: cover;
+}
+
+.bg-image-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../img/backrgound-image-secondary.webp') no-repeat fixed center;
+    background-size: cover;
+}
+
+/**** card images ****/
+.card-image {
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    height: 18.75rem;
+    width: 100%;
+}
+
+.overlay {
+    background-color: rgba(32, 24, 20, 0.5);
+    position: absolute;
+    height: 18.75rem;
+    width: 100%;
+}
+
+.zoom-btn {
+font-size: 2.1rem;
+background-color: rgba(255, 255, 255, 0.5);
+padding: 0.25rem 1.25rem .95rem 1.15rem;
+border-radius: 3.125rem;
+}

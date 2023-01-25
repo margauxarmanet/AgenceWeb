@@ -1,0 +1,57 @@
+
+/**** reboot ****/
+body {
+    min-width: 320px;
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+/**** bootstrap overwrite ****/
+.text-primary {
+    color: #ffccb4 !important; 
+}
+
+.btn-primary {
+    background-color: #ffccb4;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 204, 180, 0.5);
+}
+
+.bg-primary {
+    background-color: #ffccb4 !important;
+}
+
+.bg-secondary {
+    background-color: #6E5046 !important;
+}
+
+/**** backgrounds ****/
+.bg-paper-texture {
+    background-image: linear-gradient(rgba(50, 36, 31, 0.2),rgba(50, 36, 31, 0.2)),url('../img/background-paper-texture.png');
+    background-size: 25%;
+}
+
+/**** footer ****/
+.socials .list-group-item {
+    background-color:#ffccb4;
+    border: none;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials i {
+    display: flex;
+    color: #6E5046;
+    font-size: 1.5rem;
+}
